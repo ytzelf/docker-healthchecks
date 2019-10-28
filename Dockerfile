@@ -1,2 +1,3 @@
 FROM linuxserver/healthchecks
-COPY uwsgi.ini /app/healthchecks/
+RUN mkdir /etc/services.d/smtpd
+COPY run /etc/services.d/smtpd/run

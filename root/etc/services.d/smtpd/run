@@ -1,6 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/healthchecks || exit
-
-exec \
-	/usr/bin/python3 manage.py smtpd --port 2525

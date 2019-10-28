@@ -1,2 +1,2 @@
 FROM linuxserver/healthchecks
-COPY root/ /
+COPY uwsgi.ini /app/healthchecks/
